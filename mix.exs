@@ -42,7 +42,7 @@ defmodule Slate.MixProject do
       {:phoenix_live_view, "~> 0.14.7"},
       {:phoenix_html, "~> 2.14"},
       {:phoenix_live_reload, "~> 1.2", only: :dev},
-      {:phoenix_live_dashboard, "0.3.3"},
+      {:phoenix_live_dashboard, "0.3.4"},
       {:gettext, "~> 0.18.2"},
       {:jason, "~> 1.2"},
 
