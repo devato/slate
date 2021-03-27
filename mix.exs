@@ -55,7 +55,7 @@ defmodule Slate.MixProject do
       {:postgrex, "~> 0.15.7"},
 
       # Auth
-      {:phx_gen_auth, "~> 0.6.0", only: [:dev], runtime: false},
+      {:phx_gen_auth, "~> 0.7.0", only: [:dev], runtime: false},
       {:bcrypt_elixir, "~> 2.2"},
 
       # Mailing
