@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: mix
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: ecto_sql
+    versions:
+    - 3.6.0
+  - dependency-name: oban
+    versions:
+    - 2.6.0
+  - dependency-name: bamboo
+    versions:
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
