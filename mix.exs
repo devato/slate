@@ -69,7 +69,7 @@ defmodule Slate.MixProject do
       {:telemetry_poller, "~> 0.5.1"},
 
       # Testing
-      {:floki, "~> 0.30.0", only: [:test]},
+      {:floki, "~> 0.31.0", only: [:test]},
 
       # Linting
       {:credo, "~> 1.4", only: [:dev, :test], override: true},
