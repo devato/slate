@@ -59,7 +59,7 @@ defmodule Slate.MixProject do
       {:bcrypt_elixir, "~> 2.2"},
 
       # Mailing
-      {:bamboo, "~> 1.6"},
+      {:bamboo, "~> 2.2"},
 
       # Background Work
       {:oban, "~> 2.2"},
